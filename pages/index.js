@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -8,8 +9,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
+        <h1 className="text-slate-500 hover:text-blue-600">
+        Read <Link href="/about">this page!</Link>
         </h1>
       </main>
        
